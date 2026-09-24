@@ -172,7 +172,7 @@
     const links = DATA.sources.map((source) => {
       return '<li><a href="' + esc(source.href) + '" rel="noopener noreferrer">' + esc(source.label) + "</a></li>";
     }).join("");
-    footer.innerHTML = "<p>Word list adapted from the Washington State DES assessment. The descriptions and sample messages are original. Answers stay in this browser.</p><ul>" + links + "</ul>";
+    footer.innerHTML = "<p>Built by <a href=\"https://www.linkedin.com/in/clarkngo/\" rel=\"noopener noreferrer\">Clark Ngo</a>.</p><p>Word list adapted from the Washington State DES assessment. The descriptions and sample messages are original. Answers stay in this browser.</p><ul>" + links + "</ul>";
   }
 
   function render(opts) {
